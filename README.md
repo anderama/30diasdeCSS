@@ -16,3 +16,5 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 
 ## Desafio 01 - Ícones de redes sociais em camadas
 
+![Icone de rede sociais em camadas](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2001/social-media-sheets.gif)
+
