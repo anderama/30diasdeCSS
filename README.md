@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-30 dias de CSS3 é um desafio que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos diários, realizados no período de trinta dias. O desafio não tem data de inicio fixa, cada um faz os seus 30 dias, da forma que desejar! :happy:
+30 dias de CSS3 é um desafio que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos diários, realizados no período de trinta dias. O desafio não tem data de inicio fixa, cada um faz os seus 30 dias, da forma que desejar! ​ :happy:
 
 ## Regras gerais
 
