@@ -18,3 +18,6 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 
 ![Icone de rede sociais em camadas](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2001/social-media-sheets.gif)
 
+## Desafio 02 - Loading animado
+
+![Loading animado](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2002/Loading%20Screen.gif)
