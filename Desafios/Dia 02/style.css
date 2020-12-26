@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: #DCDCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ring {
+    height: 14rem;
+    width: 14rem;
+    border: 6px solid #FFE4E1;
+    border-left: 6px solid #B03060;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin infinite 1.5s linear;
+}
+
+.loading-text {
+    position: absolute;
+    font-size: 18px;
+    color: #B03060;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: 'Audiowide', cursive;
+
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
