@@ -21,3 +21,10 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 02 - Loading animado
 
 ![Loading animado](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2002/Loading%20Screen.gif)
+
+## Desafio 03 - Botões com animações
+
+![Botões animados](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2003/Animated%20Buttons.gif)
+
+
+
