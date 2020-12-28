@@ -26,5 +26,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 
 ![Botões animados](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2003/Animated%20Buttons.gif)
 
+## Desafio 04 - Texto flutuante
 
+![Texto flutuante](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2004/Floating-text.gif)
 
