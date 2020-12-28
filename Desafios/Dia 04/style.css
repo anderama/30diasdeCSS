@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, #0984e3 50%, #fff 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-text {
+  text-transform: uppercase;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #ffffff40;
+  transform: translateY(0);
+  animation: fl1 3s infinite linear;
+}
+
+.floating-text::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #000;
+  clip-path: polygon(0 0, 100% 0,100% 50%, 0 50%);
+  animation: fl2 3s infinite linear;
+}
+
+@keyframes fl1 {
+  30% {
+    transform: translateY(10%) rotate(2deg);
+  }
+
+  70% {
+    transform: translateY(10%) rotate(-2deg);
+  }
+}
+
+@keyframes fl2 {
+  30% {
+    clip-path: polygon(0 0, 100% 0,100% 24%, 0 50%);
+  }
+
+  70% {
+    clip-path: polygon(0 0, 100% 0,100% 56%, 0 50%);
+  }
+}
