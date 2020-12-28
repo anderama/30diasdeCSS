@@ -30,3 +30,6 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 
 ![Texto flutuante](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2004/Floating-text.gif)
 
+## Desafio 05 - Animação de Loading Arco-Íris
+
+![Animação arco-íris](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2005/rainbow-loading.gif)
