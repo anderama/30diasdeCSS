@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg,  #10ac84, #0abde3, #ff6b6b, #ee5253);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 100px 0 100px;
+    margin-top: 200px;
+    color: #dfe6e9;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    background: #dfe6e9;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+}
+
+a i {
+    font-size: 35px;
+    color: #3d3d3d;
+    transition: transform 0.5s;
+}
+
+a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+                0px 12px 10px -10px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translateY(2px);
+}
+
+a:hover i {
+    transform: scale(0.90);
+}
+
+a:hover .fa-instagram {
+    color: #d72976;
+}
+
+a:hover .fa-github {
+    color: #3B3B98;
+}
+
+a:hover .fa-linkedin-in {
+    color: #3742fa;
+}
+
+a:hover .fa-whatsapp {
+    color: #1dd1a1;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
