@@ -38,3 +38,6 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 
 ![Neomorphism Button](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2006/Neomorphism-Button.gif)
 
+## Desafio 07 - Profile Card com Glass Morphism
+
+![GlassMorphism Card](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2007/Glassmorphism-card.gif)
