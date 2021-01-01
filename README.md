@@ -45,3 +45,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 08 - Botões com animações 2 (Hover Effect)
 
 ![Buttons](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2008/Animated-buttons-2.gif)
+
+## Desafio 09 - Barra de carregamento de Ano Novo (Feliz 2021!)
+
+![Happy New Year](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2009/Happy-New-Year.gif)
