@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #74b9ff, #0984e3);
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun {
+    width: 140px;
+    height: 140px;
+    background-color: #ffde00;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px #ffde0080, 0 0 0 40px #ffde0040, 0 0 0 60px #ffde0020;
+    margin-bottom: 300px;
+    margin-left: 600px;
+    animation: sunrise 2s infinite linear forwards, rays 2s infinite linear;
+}
+
+.cloud {
+    position: absolute;
+    left: 0;
+    background: white;
+    border-radius: 1000px;
+    animation: animate 10s linear infinite;
+}
+
+.cloud::before {
+    content: "";
+    position: absolute;
+    top: -80%;
+    left: 10%;
+    width: 50%;
+    height: 150%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    right: 20%;
+    width: 30%;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud.one {
+    top: 70%;
+    height: 60px;
+    width: 180px;
+}
+
+.cloud.two {
+    top: 50%;
+    height: 30px;
+    width: 90px;
+    animation-duration: 10s;
+}
+
+.cloud.three {
+    top: 40%;
+    height: 40px;
+    width: 120px;
+    animation-duration: 8s;
+}
+
+.cloud.four {
+    top: 30%;
+    height: 40px;
+    width: 120px;
+    animation-duration: 14s;
+}
+
+.cloud.five {
+    top: 15%;
+    height: 30px;
+    width: 90px;
+    animation-duration: 12s;
+}
+
+@keyframes animate {
+    from {
+        right: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes sunrise {
+    0% {
+        box-shadow: none;
+    }
+}
+
+@keyframes rays {
+    0% {
+        box-shadow: 0 0 0 0px #ffde0080, 0 0 0 20px #ffde0040, 0 0 0 40px #ffde0020;
+    }
+    100% {
+        box-shadow: 0 0 0 20px #ffde0080, 0 0 0 40px #ffde0040, 0 0 0 60px #ffde0020;
+    }
+}
