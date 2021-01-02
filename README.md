@@ -49,3 +49,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 09 - Barra de carregamento de Ano Novo (Feliz 2021!)
 
 ![Happy New Year](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2009/Happy-New-Year.gif)
+
+## Desafio 10 - Animação de Dia Ensolarado
+
+![Dia ensolarado](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2010/Sunny-Day.gif)
