@@ -53,3 +53,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 10 - Animação de Dia Ensolarado
 
 ![Dia ensolarado](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2010/Sunny-Day.gif)
+
+## Desafio 11 - Barra de Pesquisa
+
+![Search Box](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2011/Search-Box.gif)
