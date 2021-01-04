@@ -57,3 +57,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 11 - Barra de Pesquisa
 
 ![Search Box](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2011/Search-Box.gif)
+
+## Desafio 12 - Pokemon Card Responsivo com Hover Effect
+
+![Pokemon Card](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2012/Pokemon-Card.gif)
