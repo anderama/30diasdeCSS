@@ -61,3 +61,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 12 - Pokemon Card Responsivo com Hover Effect
 
 ![Pokemon Card](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2012/Pokemon-Card.gif)
+
+## Desafio 13 - Texto animado (Saltitante)
+
+![Bouncing Text](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2013/Bouncing-text.gif)
