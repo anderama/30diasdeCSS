@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2C3A47;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bar {
+    width: 20px;
+    height: 160px;
+    background: white;
+    display: inline-block;
+    transform-origin: bottom center;
+    animation: loading 2.2s ease-in-out infinite;
+}
+
+.bar-1 {
+    animation-delay: 0.8s;
+}
+
+.bar-2 {
+    animation-delay: 0.7s;
+}
+
+.bar-3 {
+    animation-delay: 0.6s;
+}
+
+.bar-4 {
+    animation-delay: 0.5s;
+}
+
+.bar-5 {
+    animation-delay: 0.4s;
+}
+
+.bar-6 {
+    animation-delay: 0.3s;
+}
+
+.bar-7 {
+    animation-delay: 0.2s;
+}
+
+.bar-8 {
+    animation-delay: 0.1s;
+}
+
+@keyframes loading {
+    0% {
+        transform: scaleY(0.1);
+        background: #7efff5;
+    }
+
+    25% {
+        transform: scaleY(0.1);
+        background: #17c0eb;
+    }
+
+    50% {
+        transform: scaleY(1);
+        background: #1B9CFC;
+    }
+
+    100% {
+        transform: scaleY(0.1);
+        background: transparent;
+    }
+}
