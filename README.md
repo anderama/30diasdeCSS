@@ -65,3 +65,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 13 - Texto animado (Saltitante)
 
 ![Bouncing Text](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2013/Bouncing-text.gif)
+
+## Desafio 14 - Loading Animation 2
+
+![Loading animation](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2014/Loading-animation.gif)
