@@ -69,3 +69,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 14 - Loading Animation 2
 
 ![Loading animation](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2014/Loading-animation.gif)
+
+## Desafio 15 - Landing Page com uma única seção introdutória
+
+![Huddle](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2015/Huddle.gif)
