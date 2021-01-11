@@ -73,3 +73,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 15 - Landing Page com uma única seção introdutória
 
 ![Huddle](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2015/Huddle.gif)
+
+## Desafio 16 - Landing Page Huddle, segunda parte
+
+![Huddle Part 02](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2016/Huddle-02.gif)
