@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .color {
+    position: absolute;
+    filter: blur(200px);
+}
+
+section .color:nth-child(1) {
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background: #ffb8b8;
+}
+
+section .color:nth-child(2) {
+    bottom: -150px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    background: #3dc1d3;
+}
+
+section .color:nth-child(3) {
+    bottom: 50px;
+    right: 100px;
+    width: 300px;
+    height: 300px;
+    background: #ffd32a;
+}
+
+.box {
+    position: relative;
+}
+
+.box .square {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+}
+
+.box .square:nth-child(1) {
+    top: -130px;
+    right: -80px;
+    width: 200px;
+    height: 200px;
+}
+
+.box .square:nth-child(2) {
+    bottom: 120px;
+    left: -140px;
+    width: 180px;
+    height: 180px;
+}
+
+.box .square:nth-child(3) {
+    bottom: -100px;
+    left: 280px;
+    width: 185px;
+    height: 185px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.form h2 {
+    position: relative;
+    color: #2f3640;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.form h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #2f3640;
+}
+
+.form .inputBox {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form .inputBox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: #2f3640;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox input::placeholder {
+    color: #2f3640;
+}
+
+.form .inputBox input[type="submit"] {
+    background: #fff;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.forget {
+    margin-top: 5px;
+    color: #2f3640;
+}
+
+.forget a {
+    color: #2f3640;
+    font-weight: 600;
+}
+
+@keyframes animate {
+    0%,100% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+}
