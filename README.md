@@ -77,3 +77,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 16 - Landing Page Huddle, segunda parte
 
 ![Huddle Part 02](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2016/Huddle-02.gif)
+
+## Desafio 17 - Formulário de Login utilizando Glassmorphism
+
+![Login form](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2017/Login-form.gif)
