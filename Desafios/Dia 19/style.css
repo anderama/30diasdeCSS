@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(360deg, #dcdde1, #f5f6fa);
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-1 {
+    background: linear-gradient(165deg, #f78fb3, #ffb8b8, #ffcccc);
+}
+
+.card-2 {
+    background: linear-gradient(165deg, #0097e6, #17c0eb, #82ccdd);
+}
+
+.card-1 img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 320px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.card-2 img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 285px;
+    transition: 0.5s;
+    margin-bottom: 35px;
+}
+
+.card-1:hover img {
+    left: 83%;
+    height: 480px;
+}
+
+.card-2:hover img {
+    left: 88%;
+    height: 460px;
+}
+
+.card .content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    transition: 0.1s ease;
+    padding: 20px 20px 20px 40px;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .content {
+    left: 0%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.card .content p {
+    color: #222f3e;
+}
+
+.card .content a {
+    position: relative;
+    display: inline-block;
+    color: #111;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 30px;
+    text-decoration: none;
+}
