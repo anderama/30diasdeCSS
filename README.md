@@ -81,3 +81,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 17 - Formulário de Login utilizando Glassmorphism
 
 ![Login form](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2017/Login-form.gif)
+
+## Desafio 18 - Theme Toggle
+
+![Theme Toggle](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2018/Toggle.gif)
