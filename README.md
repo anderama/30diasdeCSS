@@ -85,3 +85,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 18 - Theme Toggle
 
 ![Theme Toggle](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2018/Toggle.gif)
+
+## Desafio 19 - Digimon Card com Hover Effect
+
+![Digimon Card](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2019/Digimon-Card.gif)
