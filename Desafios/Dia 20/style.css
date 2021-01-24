@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #5F9EA0;
+}
+
+.neji {
+    height: 390px;
+    position: absolute;
+    top: 43%;
+    left: 44%;
+}
+
+.half1 {
+    background-color: #222f3e;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    animation: spin 3s infinite;
+}
+
+.half2 {
+    background-color: #c8d6e5;
+    height: 300px;
+    width: 150px;
+    border-radius: 150px 0 0 150px;
+}
+
+.c1, .c2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+}
+
+.c1 {
+    background-color: #222f3e;
+}
+
+.c2 {
+    background-color: #c8d6e5;
+}
+
+.dot1, .dot2 {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.dot1 {
+    background-color: #c8d6e5;
+}
+
+.dot2 {
+    background-color: #222f3e;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
