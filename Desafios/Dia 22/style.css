@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #353b48;
+}
+
+.container {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.lamp {
+    height: 30px;
+    width: 140px;
+    background-color: #718093;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+.lamp::before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 8px;
+    left: 8px;
+    border-radius: 8px;
+}
+
+.stand {
+    height: 120px;
+    width: 12px;
+    background-color: #718093;
+    position: absolute;
+    top: -110px;
+    right: 35px;
+    transform: rotate(20deg);
+    z-index: -1;
+}
+
+.stand::before {
+    content: "";
+    height: 140px;
+    width: 12px;
+    background-color: #718093;
+    position: absolute;
+    bottom: 85px;
+    right: 56px;
+    transform: rotate(-60deg);
+}
+
+.stand::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #ffb8b8;
+    border-radius: 50%;
+    left: -14px;
+    bottom: 105px;
+}
+
+.bulb {
+    height: 50px;
+    width: 100px;
+    background-color: #ea8685;
+    position: absolute;
+    bottom: 205px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(45deg);
+    left: -42px;
+}
+
+.bulb::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ea8685;
+    left: 45px;
+    top: -15px;
+}
+
+.bulb::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 110px;
+    background-color: #ffb8b8;
+    top: 45px;
+    right: -5px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 18px;
+    background-color: #ea8685;
+    position: absolute;
+    bottom: 26px;
+    left: 15px;
+    border-radius: 3px 3px 0 0;
+    z-index: -1;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 65px;
+    border-bottom: 280px solid rgba(255, 255, 255, 0.5);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    transform: rotate(45deg);
+    bottom: -57px;
+    right: 72px;
+    display: none;
+}
+
+input[type="checkbox"]:checked::before {
+    display: block;
+}
+
+input[type="checkbox"]:checked {
+    height: 8px;
+}
