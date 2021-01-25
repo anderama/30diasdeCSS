@@ -93,3 +93,7 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 20 - Neji Animation Loading
 
 ![Neji](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2020/NejiAnimation.gif)
+
+## Desafio 21 - Coffee Cup Loading
+
+![Coffee Cup](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2021/CoffeeCup.gif)
