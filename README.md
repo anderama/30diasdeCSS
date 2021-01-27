@@ -101,3 +101,8 @@ Gostou da ideia? [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issu
 ## Desafio 22 - Luminária Interativa 
 
 ![Interactive Lamp](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2022/InteractiveLamp.gif)
+
+## Desafio 23 - Sharingan Loading
+
+![Sharingan Loading](https://github.com/anderama/30diasdeCSS/blob/main/Desafios/Dia%2023/SharinganLoading.gif)
+
